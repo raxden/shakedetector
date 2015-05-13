@@ -9,7 +9,7 @@ Android ShakeDetector is a library that allows us verify if device has an accele
 
 ```
 compile 'com.raxdenstudios:androidcommons:2.0.+'
-compile 'com.raxdenstudios:androidshakedetector:2.0.+'
+compile 'com.raxdenstudios:androidshake:2.0.+'
 ```
 
 ### Activity or Fragment
