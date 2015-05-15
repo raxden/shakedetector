@@ -10,7 +10,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by agomez on 04/05/2015.
+ * <p>ShakeDetectorHelper is a helper class that verify if device has an accelerometer, and listening for shakes</p>
+ * <p>Here is an example:</p>
+ * <pre class="prettyprint">
+ *
+ * public void onCreate(Bundle savedInstanceState) {
+ *      super.onCreate(savedInstanceState);
+ *
+ *      ShakeDetectorHelper.getInstance().startShakeDetector(this, new ShakeDetectorHelper.ShakeDetectorListener() {
+ *          public void shakeDetected() {
+ *
+ *          }
+ * });
+ *
+ * protected void onDestroy() {
+ *      super.onDestroy();
+ *
+ *      ShakeDetectorHelper.getInstance().stopShakeDetector();
+ * }
+ *
+ * </pre>
  */
 public class ShakeDetectorHelper implements SensorEventListener {
 
