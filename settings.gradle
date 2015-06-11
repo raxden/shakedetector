@@ -1,2 +1,2 @@
-include ':library', ':AndroidCommons'
+include ':library'
 rootProject.name = 'androidshakedetector'

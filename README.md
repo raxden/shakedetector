@@ -1,9 +1,9 @@
-Android DB
+Android ShakeDetector
 ==========
 
-Android DB is a library that allows (TODO). Works on Android 2.3 (API level 10) and upwards.
+Android ShakeDetector is a library that allows us verify if device has an accelerometer, and listening for shakes. Works on Android 2.3 (API level 10) and upwards.
 
-[![Release](https://img.shields.io/github/release/raxden/Androiddb.svg?label=maven central)](https://jitpack.io/#raxden/Androiddb/) [![API](https://img.shields.io/badge/API-10%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=10)
+[![Release](https://img.shields.io/github/release/raxden/AndroidShakeDetector.svg?label=maven central)](https://jitpack.io/#raxden/AndroidShakeDetector/) [![API](https://img.shields.io/badge/API-10%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=10)
 
 ## Usage
 
@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-	    compile 'com.github.raxden:Androiddb:v2.0.0@aar'
+	    compile 'com.github.raxden:AndroidShakeDetector:v2.0.1@aar'
 }
 ```
 
@@ -32,15 +32,16 @@ dependencies {
 
 <dependency>
 	    <groupId>com.github.raxden</groupId>
-	    <artifactId>Androiddb</artifactId>
-	    <version>v2.0.0</version>
+	    <artifactId>AndroidShakeDetector</artifactId>
+	    <version>v2.0.1</version>
 </dependency>
 ```
 
 **3. clone whole repository**
  - Open your **commandline-input** and navigate to your desired destination folder (where you want to put the library)
- - Use the command `git clone https://github.com/raxden/Androiddb.git` to download the full Androiddb repository to your computer (this includes the folder of the library project as well as the example project)
-
+ - Use the command `git clone https://github.com/raxden/AndroidShakeDetector.git` to download the full AndroidShakeDetector repository to your computer (this includes the folder of the library project as well as the example project)
+ 
 ### Documentation 
 
-For a **detailed documentation**, please have a look at the [**Wiki**](https://github.com/raxden/Androiddb/wiki).
+For a **detailed documentation**, please have a look at the [**Wiki**](https://github.com/raxden/AndroidShakeDetector/wiki).
+
