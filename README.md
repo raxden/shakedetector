@@ -1,9 +1,9 @@
 Android ShakeDetector
 ==========
 
-Android ShakeDetector is a library that allows us verify if device has an accelerometer, and listening for shakes. Works on Android 2.3 (API level 10) and upwards.
+Android ShakeDetector is a library that allows us verify if device has an accelerometer, and listening for shakes. Works on Android 4.1 (API level 16) and upwards.
 
-[![Release](https://img.shields.io/github/release/raxden/AndroidShakeDetector.svg?label=maven central)](https://jitpack.io/#raxden/AndroidShakeDetector/) [![API](https://img.shields.io/badge/API-10%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=10)
+[![Release](https://img.shields.io/github/release/raxden/AndroidShakeDetector.svg?label=maven central)](https://jitpack.io/#raxden/AndroidShakeDetector/) [![API](https://img.shields.io/badge/API-16%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=16)
 
 ## Usage
 
@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-	    compile 'com.github.raxden:AndroidShakeDetector:v2.0.1@aar'
+	    compile 'com.github.raxden:AndroidShakeDetector:v2.2.0@aar'
 }
 ```
 
@@ -33,7 +33,7 @@ dependencies {
 <dependency>
 	    <groupId>com.github.raxden</groupId>
 	    <artifactId>AndroidShakeDetector</artifactId>
-	    <version>v2.0.1</version>
+	    <version>v2.2.0</version>
 </dependency>
 ```
 
