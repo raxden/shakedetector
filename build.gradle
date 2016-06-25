@@ -2,11 +2,12 @@
 
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:2.1.2'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
     }
 }
 
@@ -16,3 +17,38 @@ allprojects {
         jcenter()
     }
 }
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Define versions in a single place
+ext {
+    // Sdk and tools
+    minSdkVersion = 16
+    targetSdkVersion = 24
+    compileSdkVersion = 24
+    buildToolsVersion = '24.0.0'
+
+    // App dependencies
+    supportLibraryVersion = '24.0.0'
+    androidCommonsVersion = '2.2.7@aar' // https://github.com/raxden/AndroidCommons
+
+    // Test dependencies
+    jUnitVersion = '4.12'
+    assertJVersion = '1.7.0'
+    roboelectricVersion = '3.0'
+}
+
+ext.deps = [
+        // Android
+        androidv7:          "com.android.support:appcompat-v7:$supportLibraryVersion",
+
+        // Third Party
+        androidCommons:         "com.github.raxden:AndroidCommons:${androidCommonsVersion}",
+
+        // Testing
+        junit:                  "junit:junit:${jUnitVersion}",
+        asserj:                 "org.assertj:assertj-core:${assertJVersion}",
+        robolectric:            "org.robolectric:robolectric:${roboelectricVersion}"
+]
