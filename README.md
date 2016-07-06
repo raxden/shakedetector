@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-	    compile 'com.github.raxden:AndroidShakeDetector:v2.2.0@aar'
+	    compile 'com.github.raxden:AndroidShakeDetector:2.2.1@aar'
 }
 ```
 
@@ -33,7 +33,7 @@ dependencies {
 <dependency>
 	    <groupId>com.github.raxden</groupId>
 	    <artifactId>AndroidShakeDetector</artifactId>
-	    <version>v2.2.0</version>
+	    <version>2.2.1</version>
 </dependency>
 ```
 

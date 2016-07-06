@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidShakeDetector.iml" filepath="$PROJECT_DIR$/AndroidShakeDetector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shakeDetector/library.iml" filepath="$PROJECT_DIR$/shakeDetector/library.iml" />
     </modules>
   </component>
 </project>
